@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>spotify clone</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="utility.css" />
+</head>
+
+<body>
+  <div class="container flex bg_black">
+    <!-- left part start hear -->
+
+    <div class="left bg_black">
+      <!-- home_section start hear -->
+      <div class="home bg_grey radious border display">
+        <div class="logo">
+          <img class="invert" src="logo.svg" alt="logo" />
+        </div>
+        <ul>
+          <li>
+            <img class="invert" src="home.svg" alt="home" height="26px" width="26px" />Home
+          </li>
+          <li>
+            <img class="invert" src="search.svg" alt="home" height="26px" width="26px" />
+            Search
+          </li>
+        </ul>
+      </div>
+
+      <!-- front libray icon start hear -->
+      <div class="library bg_grey border radious">
+        <div class="header_library flex width space-between">
+          <div class="libaryImage flex space-around">
+            <div>
+              <img class="invert" src="libraray.svg" alt="libray" height="26px" width="26px" />
+            </div>
+            <div class="Yourlibary">
+              <p>Your libary</p>
+            </div>
+          </div>
+          <div class="invert plus">
+            <img src="plus.svg" alt="plus sign" height="20px" width="20px" />
+          </div>
+        </div>
+        <!-- box whose are scrolling -->
+        <div class="scroll">
+          <div class="playlist bgbox_grey radious border height width margin">
+            <div class="main_box">
+              <div>
+                <h4>Create your first playlist</h4>
+              </div>
+              <div>
+                <h5>it's easy we will help you</h5>
+              </div>
+              <div>
+                <button class="playlist-btn radious">
+                  <h2>create playlist</h2>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="podcast bgbox_grey radious border height width margin">
+            <div class="main_box">
+              <div>
+                <h4>Lets find some prodcast</h4>
+              </div>
+              <div>
+                <h5>We will keep upadated on new episode</h5>
+              </div>
+              <div>
+                <button class="browser playlist-btn radious">
+                  <h3>browese language</h3>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content after scroll box content -->
+        <div class="content">
+          <div class="first_line flex space-evenly">
+            <div class="leagl1 margin">
+              <a class="anchor" href="https://www.spotify.com/in-en/legal/" target="_self"><span>Legal</span></a>
+            </div>
+            <div class="leagl2 margin">
+              <a class="anchor" href="https://www.spotify.com/in-en/safetyandprivacy/" target="_self"><span>Safety &amp;
+                  Privacy Center</span></a>
+            </div>
+            <div class="leagl3 margin">
+              <a class="anchor" href="https://www.spotify.com/in-en/legal/privacy-policy/" target="_self"><span>Privacy
+                  Policy</span></a>
+            </div>
+          </div>
+          <div class="second_line flex space-evenly">
+            <div class="leagl4 margin">
+              <a class="anchor" href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                target="_self"><span>Cookies</span></a>
+            </div>
+            <div class="leagl5 margin">
+              <a class="anchor" href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" target="_self"><span>About
+                  Ads</span></a>
+            </div>
+            <div class="leagl6 margin">
+              <a class="anchor" href="https://www.spotify.com/in-en/accessibility/"
+                target="_self"><span>Accessibility</span></a>
+            </div>
+          </div>
+          <div class="leagl7 margin">
+            <a class="anchor" draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+              rel="noopener"><span data-encore-id="text">Cookies</span></a>
+          </div>
+        </div>
+        <!-- language button -->
+        <div class="lang_button flex justify-center aligen-item">
+          <img class="invert" src="browser.svg" alt="browser image" height="20px" width="20px" />
+          <h4>English</h4>
+        </div>
+      </div>
+    </div>
+    <!-- right header start hear -->
+    <div class="right bg_grey">
+      <div class="menu">
+        <a class="invert" href="leftPart.html" target="_self" translate="no"><img class="invert" src="menu.svg"
+            alt="" /></a>
+      </div>
+      <div class="right_header width flex space-between">
+        <div class="icons space-between">
+          <div class="left_icon bg_black flex items-center justify-center">
+            <img class="invert" src="icon//left_icon.svg" alt="left_icon.svg" height="20px" width="20px" />
+          </div>
+          <div class="right_icon bg_black flex items-center justify-center">
+            <img class="invert bg_gery" src="icon//right_icon.svg" alt="left_icon.svg" height="20px" width="20px" />
+          </div>
+        </div>
+
+        <div class="right_header_right">
+          <div class="sign_in">
+            <h2><a href="SignUp.html" target="_self">Sign Up</a></h2>
+          </div>
+          <div class="log_in flex justify-center aligen-items">
+            <h3>Log in</h3>
+          </div>
+        </div>
+      </div>
+      <!-- Right header ends hear -->
+      <!-- right body start hear -->
+      <div class="right_main_container">
+        <!-- heading of right main container -->
+        <div class="heading flex space-between">
+          <div class="spotify_heading">
+            <h2>Spotify playlist</h2>
+          </div>
+          <div class="show_all">
+            <h4>Show All</h4>
+          </div>
+        </div>
+
+        <!-- song items strat hear -->
+
+        <div class="song_items">
+          <div class="item item1">
+            <div class="image">
+              <img src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06
+                    " alt=" firstb box image" height="167px" width="167px" />
+              <div class="play-btn">
+                <img class="ptn" src="play_btn.svg" alt="playbtn" height="20px" width="20px" />
+              </div>
+            </div>
+            <div class="about margin">
+              <h3>Deep night</h3>
+            </div>
+            <div class="para margin">
+              <p>Feels you much pleasure to you</p>
+            </div>
+          </div>
+          <div class="item item2">
+            <div class="image">
+              <img src="https://i.scdn.co/image/ab67706f000000028998614b3281e12596844039
+                    " alt=" firstb box image" height="167px" width="167px" />
+              <div class="play-btn">
+                <img src="play_btn.svg" alt="playbtn" height="20px" width="20px" />
+              </div>
+            </div>
+            <div class="about margin">
+              <h3>Dazy light</h3>
+            </div>
+            <div class="para margin">
+              <p>Meaning full enjoyment and most fabulsh Joy of beauty</p>
+            </div>
+          </div>
+          <div class="item item3">
+            <div class="image">
+              <img src="https://i.scdn.co/image/ab67706f000000027e858e4098c8a256ca51d770
+                    " alt=" firstb box image" height="167px" width="167px" />
+              <div class="play-btn">
+                <img src="play_btn.svg" alt="playbtn" height="20px" width="20px" />
+              </div>
+            </div>
+            <div class="about margin">
+              <h3>Lazy morning</h3>
+            </div>
+            <div class="para margin">
+              <p>Enjoy yourself to you fantastic way of journy of life</p>
+            </div>
+          </div>
+          <div class="item item4">
+            <div class="image">
+              <img src="https://i.scdn.co/image/ab67706f000000027da11e4e02c0da2f543ea20f
+                    " alt=" firstb box image" height="167px" width="167px" />
+              <div class="play-btn">
+                <img src="play_btn.svg" alt="playbtn" height="20px" width="20px" />
+              </div>
+            </div>
+            <div class="about margin">
+              <h3>Lazy morning</h3>
+            </div>
+            <div class="para margin">
+              <p>
+                Lazy means lazy only lazy if you are feel lazy on go with rady
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="contentes ">
+          <div class="contentens_left ">
+            <div class="company">
+              <h3>Company</h3>
+              <a class="anchor" href="https://www.spotify.com/in-en/about-us/contact/" role="link"
+                data-ga-category="menu" data-ga-action="about" data-encore-id="textLink"><span
+                  data-encore-id="type">About</span></a>
+              <a class="anchor" href="https://www.lifeatspotify.com/" role="link" data-ga-category="menu"
+                data-ga-action="jobs" data-encore-id="textLink"><span data-encore-id="type">Jobs</span></a>
+              <a class="anchor" href="https://newsroom.spotify.com/" role="link" data-ga-category="menu"
+                data-ga-action="press" data-encore-id="textLink"><span data-encore-id="type">For the Record</span></a>
+            </div>
+            <div class="Communities">
+              <h3>Communities</h3>
+              <a class="anchor" href="https://artists.spotify.com/" role="link" data-ga-category="menu"
+                data-ga-action="artists" data-encore-id="textLink"><span data-encore-id="type">For Artists</span></a>
+              <a class="anchor" href="https://developer.spotify.com/" role="link" data-ga-category="menu"
+                data-ga-action="developers" data-encore-id="textLink"><span data-encore-id="type">Developers</span></a>
+              <a class="anchor" href="https://ads.spotify.com/" role="link" data-ga-category="menu"
+                data-ga-action="advertising" data-encore-id="textLink"><span
+                  data-encore-id="type">Advertising</span></a>
+              <a class="anchor" href="https://investors.spotify.com/" role="link" data-ga-category="menu"
+                data-ga-action="investors" data-encore-id="textLink"><span data-encore-id="type">Investors</span></a>
+              <a class="anchor" href="https://spotifyforvendors.com/" role="link" data-ga-category="menu"
+                data-ga-action="vendors" data-encore-id="textLink"><span data-encore-id="type">Vendors</span></a>
+            </div>
+            <div class="useful_links">
+              <h3>Useful Links</h3>
+              <a class="anchor" href="https://support.spotify.com/" role="link" data-ga-category="menu"
+                data-ga-action="help" data-encore-id="textLink"><span data-encore-id="type">Support</span></a>
+              <a class="anchor" href="https://www.spotify.com/in-en/free/" role="link" data-ga-category="menu"
+                data-ga-action="free" data-encore-id="textLink"><span data-encore-id="type">Free Mobile App</span></a>
+            </div>
+          </div>
+          <div class="right_links flex space-arround">
+            <div class="insta">
+              <img class="invert" src="insta.svg" alt="instagram svg inside th" height="20px" width="20px" />
+            </div>
+            <div class="facebook">
+              <img class="invert" src="facebook.svg" alt="facebook" height="20px" width="20px" />
+            </div>
+            <div class="twitter">
+              <img class="invert" src="twitter.svg" alt="twitter" height="20px" width="20px" />
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="copy_right">
+          <span> &#169; 2024 Spotify Ab </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- container ends hear -->
+  <!-- footer sign in start hear -->
+  <div class="sign_bar_in_footer margin space-between">
+    <div class="text">
+      <br />
+      <h3>
+        Preview of Spotify <br />Sign up to get unlimted songs and prodcast
+        with occasinal ads. No credit card Needed.
+      </h3>
+    </div>
+    <div class="sing_up_button_bottem flex justify-center aligen-items">
+      <h3><a href="SignUp.html" target="_self"> Sign up free</a></h3>
+    </div>
+  </div>
+  <div class="audio_list">
+    <audio id="audio_first" controls src="first.mp3"> hear is a simple music</audio>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>
